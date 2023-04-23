@@ -1,0 +1,59 @@
+.wraper{
+ position: relative;
+ width: 95dvw;
+ height:3.6rem;
+ /* background-color: blueviolet; */
+ display: flex;
+ justify-content: space-between;
+ 
+
+}
+.logo_cointainer{
+    /* width: 30vw; */
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.links_cointainer{
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.link{
+    font-size: 20px;
+}
+.right_side{
+    /* background-color: chartreuse; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+    padding-right: 35px;
+}
+.items_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+   height: max-content;
+   width: max-content;
+
+}
+button{
+    width:100px;
+    height: 25px;
+}
+
+.items{
+    width: 20px;
+    height: 20px;
+    background-color: darkgreen;
+    border: solid black 2px;
+}
