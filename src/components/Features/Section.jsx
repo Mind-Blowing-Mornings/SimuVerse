@@ -6,7 +6,7 @@ import buy from "../../assets/images/buy.svg";
 
 export default function Section() {
   return (
-    <div className="container">
+    <div className="container_Features">
       <div className="features_div">
         <div className="box_one grid_item">
           <div className="heading_div">

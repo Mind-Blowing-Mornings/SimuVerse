@@ -1,130 +1,49 @@
-
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
 :root{
-  --primary-color : #F8444F ;
+    padding: 0px;
+    margin: 0px;
+
+    --primary-color:#F8444F;
+    
 }
-.Navbar_div{
-    width: 100vw;
+.Hero_wrapper{
+    background-color: #F8444F;
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-
-}
-
-
-.head{
-    background-color:var(--primary-color);
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap;
-    align-content: center; */
 
-    position: absolute;
-    width: 105dvw;
-    overflow: hidden;
-    height: 100dvh;
-    left: -10px;
-    top: -20px;
+   
 }
+.navbar_div{
+    width: max-content;
+    color: black;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
 
-.head1{
-position: absolute;
-width: 626px;
-height: 60px;
-left: 90px;
-top: 176px;
-
-
-font-family: var(--font-family-italic);
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 60px;
-
-color: #FFFFFF;
 }
-
-.head2{
-    
-position: absolute;
-width: 432px;
-height: 60px;
-left: 80px;
-top: 236px;
-
-
-font-family: var(--font-family-italic);
-font-style: normal;
-font-weight: 400px;
-font-size: 30px;
-line-height: 60px;
-/* identical to box height */
-color: #FFFFFF;
+.hero-section{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 70dvh;
+    color: bisque;
 }
-
-.head3{
-    padding-left:px;
-    position: absolute;
-    width:607px;
-    height: 19px;
-    left: -30px;
-    top: 307px;
-    bottom: 280px;
-     right : 733px;
-
-
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #FFFFFF;
-    
+.container{
+    width: 80dvw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2rem; */
 }
-
-.explore-button{
-    
-position: absolute;
-width: 211px;
-height: 44px;
-left: 100px;
-top: 428px;
-
-
-background: #FFFFFF;
-border-radius: 4px;
+.heading{
+    margin-bottom: 0.5rem;
 }
-
-
-.image1{
-
-position: absolute;
-width: 559.97px;
-height: 423px;
-
-right : 100px ;
-
-bottom: 50px;
-
-background: url(../../assets/images/image.png);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.span{
+    display: block;
+    margin-bottom: 4rem;
 }
-
-
-html,body{
-    width: 130vw ;
-    overflow: hidden;
+button{
+    width: 170px;
+    height: 44px;
 }

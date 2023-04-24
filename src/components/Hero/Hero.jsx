@@ -1,36 +1,33 @@
-import React from 'react'
-import './Hero.css'
-import Navbar from '../Navbar/Navbar'
-function Hero() {
+import React from "react";
+import image from "../../assets/images/Hero.png";
+import "./Hero.css";
+import Navbar from "../Navbar/Navbar.jsx";
+const hero = () => {
   return (
     <>
-      <div className='Navbar_div'>
-      <Navbar></Navbar>
+      <div className="Hero_wrapper">
+      <div className="navbar_div">
+        <Navbar></Navbar>
       </div>
-     <div className='head'>
-        <div className='head1'>
-        <h4>Re imagining the way you shop</h4>
+      <div className="hero-section">
+        <div className="container">
+          <div className="left-section">
+            <h1 className="heading">
+              Re imagining the way you shop Introducing SIMUVERSE
+            </h1>
+            <span className="span">
+              Click on the explore button below to know more about SimuVerse.
+            </span>
+            <button>Explore</button>
+          </div>
+          <div className="right-section">
+            <img src={image} alt="SimuVerse" />
+          </div>
         </div>
-
-        <div className ="head2">
-        <h4>Introducing SIMUVERSE</h4>
-        </div >
-
-        <div className='head3'>
-        <h6>Click on the explore button below to know more about SimuVerse.</h6>
-        </div>
-
-        <button className='explore-button'>
-            <h5>Explore</h5>
-        </button>
-
-        <div className='image1'>
-           {/* <image></image> */}
-           </div>
-    </div>
-
+      </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default hero;
