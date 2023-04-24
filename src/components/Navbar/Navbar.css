@@ -5,8 +5,9 @@
  /* background-color: blueviolet; */
  display: flex;
  justify-content: space-between;
- 
-
+ z-index: 10000;
+ background-color: white;
+ border-radius: 10px;
 }
 .logo_cointainer{
     /* width: 30vw; */
