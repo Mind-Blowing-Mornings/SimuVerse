@@ -1,8 +1,8 @@
-import "./App.css";
-import image from "./images/image.png";
-import image1 from "./images/image1.png";
-import image2 from "./images/image2.png";
-import link1 from "./images/link1.png";
+import "./Works.css";
+import image from "../../assets/images/Works_girl.png";
+import image1 from "../../assets/images/Works_shirt.png";
+import image2 from "../../assets/images/Works_girl1.png";
+import link1 from "../../assets/images/link1.png";
 
 function Works() {
   return (
