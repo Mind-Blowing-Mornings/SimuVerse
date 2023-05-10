@@ -5,6 +5,7 @@ import Section from "./components/home/Features/Section";
 import Hero from "./components/home/Hero/Hero";
 import Works from "./components/home/Works/Works";
 import Home from "./pages/Home.jsx";
+import Store from "./pages/Store.jsx";
 // import FooterElement from './components/FooterElement'
 function App() {
   return (

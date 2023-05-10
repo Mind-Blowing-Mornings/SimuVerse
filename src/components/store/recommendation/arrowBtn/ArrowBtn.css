@@ -1,0 +1,16 @@
+.store_btn {
+  border: none;
+  outline: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+}
+
+.store_right_arrow {
+  background: #78bdc4;
+  margin-left: 1rem;
+}
+
+.store_left_arrow {
+  background: rgba(120, 189, 196, 0.5);
+}

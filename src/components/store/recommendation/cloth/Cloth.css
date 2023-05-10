@@ -1,0 +1,50 @@
+.store_carousel_cloth {
+  width: 391px;
+  height: 171px;
+  background: #f8444f;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.cloth_img {
+  width: 119px;
+  height: 145px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.store_carousel_cloth img {
+  width: 107px;
+  height: 107px;
+}
+
+.store_carousel_cloth span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.store_carousel_cloth button {
+  width: 83px;
+  height: 34px;
+  background: #f7f8f3;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+
+.store_carousel_cloth h4 {
+  font-size: 20px;
+}
