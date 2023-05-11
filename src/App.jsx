@@ -9,7 +9,8 @@ import Store from "./pages/Store.jsx";
 // import FooterElement from './components/FooterElement'
 function App() {
   return (
-    <Home />
+    <Store />
+    // <Home />
     // <>
     //   <Navbar/>
     //   <Hero/>

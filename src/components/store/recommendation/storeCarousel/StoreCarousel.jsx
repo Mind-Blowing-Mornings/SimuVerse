@@ -1,8 +1,8 @@
 import "./StoreCarousel.css";
 import ArrowBtn from "../arrowBtn/ArrowBtn.jsx";
-import Cloth from "../cloth/Cloth.jsx";
 import storeTshirt from "../../../../assets/images/store-tshirt.svg";
 import storeJeans from "../../../../assets/images/store-jeans.svg";
+import Demo from "../demo/Demo.jsx";
 
 export default function StoreCarousel() {
   return (
@@ -39,13 +39,7 @@ export default function StoreCarousel() {
             </svg>
           </ArrowBtn>
         </div>
-
-        <div className="demo_container">
-          <div className="cloth_container">
-            <Cloth image={storeTshirt} title="Cloth 1" />
-            <Cloth image={storeJeans} title="Cloth 2" />
-          </div>
-        </div>
+        <Demo storeTshirt={storeTshirt} storeJeans={storeJeans} />
       </div>
     </div>
   );

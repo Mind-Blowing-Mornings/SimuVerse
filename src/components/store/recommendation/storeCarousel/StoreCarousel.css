@@ -2,8 +2,14 @@
   font-family: var(--font-heading);
 }
 
+.store_carousel_container h2 {
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .store_carousel {
-  width: 30rem;
+  width: fit-content;
   margin: auto;
   position: relative;
 }
@@ -11,14 +17,15 @@
 .carousel_btn_container {
   position: absolute;
   right: 0;
+  top: -3.3rem;
 }
 
-.demo_container {
-  display: flex;
-}
+@media only screen and (max-width: 480px) {
+  .store_carousel_container h2 {
+    font-size: 20px;
+  }
 
-.cloth_container {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+  .carousel_btn_container {
+    top: -2rem;
+  }
 }

@@ -31,6 +31,7 @@
   display: block;
   font-size: 12px;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .store_carousel_cloth button {
@@ -46,5 +47,45 @@
 }
 
 .store_carousel_cloth h4 {
+  font-weight: 500;
   font-size: 20px;
+}
+
+/* media queries */
+@media only screen and (width: 768px) {
+  .store_carousel_cloth {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .store_carousel_cloth {
+    width: 180px;
+    height: 110px;
+    padding: 10px;
+  }
+
+  .cloth_img {
+    width: 90px;
+    height: 87px;
+  }
+
+  .cloth_img img {
+    width: 78px;
+    height: 72px;
+  }
+
+  .store_carousel_cloth h4 {
+    font-size: 14px;
+  }
+
+  .store_carousel_cloth span,
+  .store_carousel_cloth button {
+    font-size: 10px;
+  }
+
+  .store_carousel_cloth button {
+    width: 45px;
+    height: 18px;
+  }
 }
